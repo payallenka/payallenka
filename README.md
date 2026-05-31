@@ -1,54 +1,80 @@
-# Hi there, I'm Payal Lenka 👋
+# Hi, I'm Payal 👋
 
-### A passionate full-stack developer from India 🚀
+Software Developer at Codifinary, building products, developer platforms, and intelligent systems.
 
-- 📫 Reach me via email: [payalm.lenka@gmail.com](mailto:payalm.lenka@gmail.com)
-
----
-
-## Other profiles:
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0e76a8?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/payallenka) 
-[![Medium](https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white)]([https://medium.com/@payalm.lenka])
-[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=flat&logo=leetcode&logoColor=white)](https://www.leetcode.com/payallenka)
+I'm passionate about solving real-world problems through software and enjoy working across product engineering, observability, distributed systems, developer infrastructure, and AI-powered applications.
 
 ---
 
-## Tech Stack:
+## 🚀 What I'm Currently Working On
 
-### Frontend:
-- **Next.js**
-- **TypeScript**
-- **Tailwind CSS**
-
-### Backend:
-- **Spring Boot**
-- **Django**
-
-### Databases:
-- **MySQL**
-- **MongoDB**
-
-### Tools & Technologies:
-- **Git & GitHub**
-- **Docker & Kubernetes**
-- **Postman**
-- **Node.js**
-- **Python**
+* Building observability and monitoring experiences at CodeXray
+* Exploring AI-driven infrastructure and platform engineering
+* Building side projects around intelligent systems and automation
+* Deepening my understanding of scalable software architecture
 
 ---
 
-## GitHub Stats:
+## 🛠 Areas of Interest
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=payallenka&show_icons=true&locale=en&layout=compact)
+* Product Engineering
+* Developer Infrastructure
+* Observability & Monitoring
+* Distributed Systems
+* Cloud & Platform Engineering
+* Artificial Intelligence
+* System Design
 
 ---
 
-## Projects:
-- **[Bookmarks Manager](https://bkmanager-payal-lenkas-projects.vercel.app)** - A feature-rich bookmark management system built with modern web technologies, deployed on Vercel.
-- **[TaskShare](https://github.com/payallenka/TaskShare)** - A full-stack project for task management with collaborative features, built using Django, React, and MySQL.
-- **[LockCrypt](https://github.com/payallenka/LockCrypt)** - A password security solution using OTP cryptography, built with microservices architecture (Spring Boot).
+## 🌟 Selected Projects
+
+### AgentHub
+
+A platform focused on AI agents, automation workflows, and intelligent system orchestration. Built to explore practical applications of agent-driven software systems.
+
+🔗 https://github.com/payallenka/AgentHub
+
+### Interceptor Engine
+
+A developer-focused tooling project designed around request interception, processing pipelines, and extensible system workflows.
+
+🔗 https://github.com/payallenka/interceptor-engine
+
+### Explain Code Simply
+
+A developer productivity tool that helps simplify and explain complex code for faster understanding and learning.
+
+🔗 https://github.com/payallenka/explain-code-simply
 
 ---
 
-Feel free to explore my repositories and connect with me through any of the platforms above! 😊
+## 🏆 Highlights
+
+* Software Developer at Codifinary Technologies
+* Former Google Developer Student Clubs Core Member
+* Former IEEE Student Chapter Chair
+* Contributor to a patent-backed academic project
+* Competitive programming and problem-solving enthusiast
+
+---
+
+## 📚 Currently Learning
+
+* Large-scale system design
+* AI infrastructure and intelligent systems
+* Observability engineering
+* Platform engineering best practices
+
+---
+
+## 🌐 Connect With Me
+
+* LinkedIn: https://linkedin.com/in/payallenka
+* Medium: https://medium.com/@payalm.lenka
+* LeetCode: https://leetcode.com/payallenka
+* Email: [payalm.lenka@gmail.com](mailto:payalm.lenka@gmail.com)
+
+---
+
+> Building products, platforms, and intelligent systems—one iteration at a time.
