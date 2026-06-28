@@ -78,7 +78,7 @@ I like problems with real stakes — where **correctness, latency, and money** a
 
 📫 **payalm.lenka@gmail.com**
 🔗 Portfolio: **[payallenka.vercel.app](https://payallenka.vercel.app)** · Studio: [Lenkara](https://lenkara.vercel.app)
-✍️ [DEV](https://dev.to/payallenka) · [Medium](https://medium.com/@payalm.lenka) · 💼 [LinkedIn](https://www.linkedin.com/in/payallenka/) · 🧩 [LeetCode](https://leetcode.com/payallenka)
+✍️ [DEV](https://dev.to/payallenka) · [Medium](https://medium.com/@payalm.lenka) · [Substack](https://substack.com/@ustuloabsque123904) · 💼 [LinkedIn](https://www.linkedin.com/in/payallenka/) · 🧩 [LeetCode](https://leetcode.com/payallenka)
 
 ---
 
