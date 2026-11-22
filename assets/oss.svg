@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="348" viewBox="0 0 1200 348">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B87FF"/><stop offset=".5" stop-color="#F472B6"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B87FF" stop-opacity=".9"/><stop offset="1" stop-color="#2DD4BF" stop-opacity=".5"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".04"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="40"/></filter>
+</defs>
+<style>.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif} .m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace} .l{opacity:0;animation:in .4s ease forwards} @keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}</style>
+<rect width="1200" height="348" rx="16" fill="#12121F"/>
+<rect width="1200" height="348" rx="16" fill="url(#grid)"/>
+<rect x=".5" y=".5" width="1199" height="347" rx="16" fill="none" stroke="url(#edge)" stroke-opacity=".45"/>
+<circle cx="28" cy="26" r="6" fill="#FF5F57"/><circle cx="48" cy="26" r="6" fill="#FEBC2E"/><circle cx="68" cy="26" r="6" fill="#28C840"/>
+<text x="40" y="64" class="m" font-size="14"><tspan fill="#8B87FF">$</tspan><tspan fill="#E6E6F0"> git log --author=payallenka --merged --upstream</tspan></text>
+<line x1="58" y1="92" x2="58" y2="322" stroke="#26263A" stroke-width="2"/>
+<g class="l" style="animation-delay:0.30s">
+  <circle cx="58" cy="99" r="6" fill="#0B0B14" stroke="#2DD4BF" stroke-width="2.5"/>
+  <text x="80" y="104" class="m" font-size="14"><tspan fill="#FBBF24">merged</tspan><tspan fill="#9A9AB5">  </tspan><tspan fill="#2DD4BF" font-weight="700">jaegertracing/jaeger</tspan></text>
+  <text x="440" y="104" class="m" font-size="14" fill="#E6E6F0">cancel remote-storage trace streams when iteration stops early</text>
+</g>
+<g class="l" style="animation-delay:0.55s">
+  <circle cx="58" cy="133" r="6" fill="#0B0B14" stroke="#8B87FF" stroke-width="2.5"/>
+  <text x="80" y="138" class="m" font-size="14"><tspan fill="#FBBF24">merged</tspan><tspan fill="#9A9AB5">  </tspan><tspan fill="#8B87FF" font-weight="700">open-telemetry/collector-contrib</tspan></text>
+  <text x="440" y="138" class="m" font-size="14" fill="#E6E6F0">oracledb receiver: check rows.Err and close rows</text>
+</g>
+<g class="l" style="animation-delay:0.80s">
+  <circle cx="58" cy="167" r="6" fill="#0B0B14" stroke="#F472B6" stroke-width="2.5"/>
+  <text x="80" y="172" class="m" font-size="14"><tspan fill="#FBBF24">merged</tspan><tspan fill="#9A9AB5">  </tspan><tspan fill="#F472B6" font-weight="700">keycloak/keycloak</tspan></text>
+  <text x="440" y="172" class="m" font-size="14" fill="#E6E6F0">keep a '$' that doesn't start a placeholder intact</text>
+</g>
+<g class="l" style="animation-delay:1.05s">
+  <circle cx="58" cy="201" r="6" fill="#0B0B14" stroke="#FBBF24" stroke-width="2.5"/>
+  <text x="80" y="206" class="m" font-size="14"><tspan fill="#FBBF24">merged</tspan><tspan fill="#9A9AB5">  </tspan><tspan fill="#FBBF24" font-weight="700">quarkusio/quarkus</tspan></text>
+  <text x="440" y="206" class="m" font-size="14" fill="#E6E6F0">support negated predicates in MongoDB Panache queries</text>
+</g>
+<g class="l" style="animation-delay:1.30s">
+  <circle cx="58" cy="235" r="6" fill="#0B0B14" stroke="#FBBF24" stroke-width="2.5"/>
+  <text x="80" y="240" class="m" font-size="14"><tspan fill="#FBBF24">merged</tspan><tspan fill="#9A9AB5">  </tspan><tspan fill="#FBBF24" font-weight="700">quarkusio/quarkus</tspan></text>
+  <text x="440" y="240" class="m" font-size="14" fill="#E6E6F0">apply devservices.timeout to MySQL/MariaDB/MSSQL JDBC wait</text>
+</g>
+<g class="l" style="animation-delay:1.55s">
+  <circle cx="58" cy="269" r="6" fill="#0B0B14" stroke="#FBBF24" stroke-width="2.5"/>
+  <text x="80" y="274" class="m" font-size="14"><tspan fill="#FBBF24">merged</tspan><tspan fill="#9A9AB5">  </tspan><tspan fill="#FBBF24" font-weight="700">quarkusio/quarkus</tspan></text>
+  <text x="440" y="274" class="m" font-size="14" fill="#E6E6F0">do not propagate default values from the Gradle build</text>
+</g>
+<g class="l" style="animation-delay:1.80s">
+  <circle cx="58" cy="303" r="6" fill="#0B0B14" stroke="#2DD4BF" stroke-width="2.5"/>
+  <text x="80" y="308" class="m" font-size="14"><tspan fill="#FBBF24">merged</tspan><tspan fill="#9A9AB5">  </tspan><tspan fill="#2DD4BF" font-weight="700">debezium/connector-spanner</tspan></text>
+  <text x="440" y="308" class="m" font-size="14" fill="#E6E6F0">don't mutate record headers in place when adding timestamps</text>
+</g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B87FF"/><stop offset=".5" stop-color="#F472B6"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B87FF" stop-opacity=".9"/><stop offset="1" stop-color="#2DD4BF" stop-opacity=".5"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".04"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="40"/></filter>
+</defs>
+<style>
+  .s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif} .m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;font-size:14px}
+  .l{opacity:0;animation:in .35s ease forwards}
+  @keyframes in{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+  .b1{animation:f1 12s ease-in-out infinite alternate} .b2{animation:f2 14s ease-in-out infinite alternate}
+  @keyframes f1{to{transform:translate(120px,40px)}} @keyframes f2{to{transform:translate(-140px,-30px)}}
+  .cur{animation:bl 1s steps(1) infinite} @keyframes bl{50%{opacity:0}}
+  .sh{animation:sh 6s linear infinite} @keyframes sh{from{stroke-dashoffset:0}to{stroke-dashoffset:-400}}
+</style>
+<rect width="1200" height="360" rx="22" fill="#0B0B14"/>
+<rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+<g filter="url(#blur)" opacity=".55"><circle class="b1" cx="180" cy="80" r="130" fill="#4F46E5"/><circle class="b2" cx="520" cy="320" r="120" fill="#F472B6" opacity=".6"/></g>
+<rect x=".5" y=".5" width="1199" height="359" rx="22" fill="none" stroke="url(#edge)" stroke-opacity=".5"/>
+
+<text x="56" y="82" class="m" font-size="14" fill="#2DD4BF" letter-spacing="3">HELLO, WORLD — I'M</text>
+<text x="52" y="152" class="s" font-size="68" font-weight="800" fill="url(#g)">Payal Lenka</text>
+<text x="56" y="194" class="s" font-size="22" font-weight="600" fill="#E6E6F0">AI &amp; Full-Stack Engineer</text>
+<text x="56" y="224" class="s" font-size="17" fill="#9A9AB5">I build the hard parts of products —</text>
+<text x="56" y="248" class="s" font-size="17" fill="#9A9AB5">where correctness, latency and money are on the line.</text>
+<g class="s" font-size="13" font-weight="600">
+  <rect x="56" y="282" width="118" height="30" rx="15" fill="#8B87FF" fill-opacity=".15" stroke="#8B87FF" stroke-opacity=".5"/><text x="115" y="302" text-anchor="middle" fill="#8B87FF">AI agents</text>
+  <rect x="184" y="282" width="134" height="30" rx="15" fill="#2DD4BF" fill-opacity=".12" stroke="#2DD4BF" stroke-opacity=".5"/><text x="251" y="302" text-anchor="middle" fill="#2DD4BF">observability</text>
+  <rect x="328" y="282" width="126" height="30" rx="15" fill="#F472B6" fill-opacity=".12" stroke="#F472B6" stroke-opacity=".5"/><text x="391" y="302" text-anchor="middle" fill="#F472B6">open source</text>
+  <rect x="464" y="282" width="104" height="30" rx="15" fill="#FBBF24" fill-opacity=".12" stroke="#FBBF24" stroke-opacity=".5"/><text x="516" y="302" text-anchor="middle" fill="#FBBF24">dev tools</text>
+</g>
+
+<rect x="620" y="44" width="540" height="276" rx="14" fill="#12121F" stroke="#26263A"/>
+<rect x="620" y="44" width="540" height="276" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.5" stroke-dasharray="60 340" class="sh"/>
+<circle cx="644" cy="68" r="6" fill="#FF5F57"/><circle cx="664" cy="68" r="6" fill="#FEBC2E"/><circle cx="684" cy="68" r="6" fill="#28C840"/>
+<text x="890" y="73" class="m" font-size="12" text-anchor="middle" fill="#9A9AB5">payal@build: ~</text>
+<line x1="620" y1="88" x2="1160" y2="88" stroke="#26263A"/>
+<text x="652" y="118" class="m l" style="animation-delay:0.60s" fill="#E6E6F0"><tspan fill="#8B87FF">$ </tspan>whoami</text>
+<text x="652" y="143" class="m l" style="animation-delay:1.05s" fill="#9A9AB5"><tspan fill="#55557a">  </tspan>ai &amp; full-stack engineer · observability @ codexray</text>
+<text x="652" y="168" class="m l" style="animation-delay:1.50s" fill="#E6E6F0"><tspan fill="#8B87FF">$ </tspan>ls ~/shipped</text>
+<text x="652" y="193" class="m l" style="animation-delay:1.95s" fill="#2DD4BF"><tspan fill="#55557a">  </tspan>safety-label  npm-publish-doctor  interceptor-engine</text>
+<text x="652" y="218" class="m l" style="animation-delay:2.40s" fill="#E6E6F0"><tspan fill="#8B87FF">$ </tspan>git log --upstream --merged --oneline | wc -l</text>
+<text x="652" y="243" class="m l" style="animation-delay:2.85s" fill="#FBBF24"><tspan fill="#55557a">  </tspan>7   # jaeger · otel · keycloak · quarkus · debezium</text>
+<text x="652" y="268" class="m l" style="animation-delay:3.30s" fill="#E6E6F0"><tspan fill="#8B87FF">$ </tspan>cat status.txt</text>
+<text x="652" y="293" class="m l" style="animation-delay:3.75s" fill="#F472B6"><tspan fill="#55557a">  </tspan>open to ideas · collabs · freelance</text>
+<rect x="968" y="280" width="9" height="17" fill="#F472B6" class="cur l" style="animation:in .35s ease 4.20s forwards, bl 1s steps(1) 4.20s infinite"/>
+</svg>
