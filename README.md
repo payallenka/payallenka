@@ -1,7 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Payal Lenka — Software Engineer, AI & Full-Stack. 7 merged upstream PRs, 3 npm packages, 1 VS Code extension.">
-</picture>
+## Hi, I'm Payal Lenka
+
+**Software engineer — AI & full-stack.** I build the hard parts of products, where correctness, latency and money are on the line.
 
 <p>
   <a href="https://payallenka.vercel.app"><img src="https://img.shields.io/badge/Portfolio-555?style=flat-square&logo=vercel&logoColor=white"></a>
@@ -19,7 +18,7 @@ I'm a software engineer at **Codifinary (CodeXray)**, working on a production ob
 - **Observability** — traces, service maps, per-service execution breakdowns and p90 latency at CodeXray (Go, ClickHouse, React, OpenTelemetry)
 - **Organisational memory for AI** — versioned document memory and a context graph across Notion, Slack, GitHub and Gmail, served to Claude agents (Qdrant, MCP, Langfuse)
 - **AI in the delivery pipeline** — Claude Code review and test generation in CI across a dozen services
-- **Open source** — fixing real bugs in CNCF, Red Hat and database ecosystems
+- **Open source** — fixing real bugs in CNCF and Commonhaus Foundation projects
 
 ### Published packages
 
@@ -32,11 +31,18 @@ I'm a software engineer at **Codifinary (CodeXray)**, working on a production ob
 
 ### Open-source contributions
 
+**CNCF**
+
 | Project | Merged change |
 |---|---|
-| [Jaeger](https://github.com/jaegertracing/jaeger/pull/10049) (CNCF) | Cancel remote-storage trace streams when iteration stops early |
+| [Jaeger](https://github.com/jaegertracing/jaeger/pull/10049) | Cancel remote-storage trace streams when iteration stops early |
 | [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/52761) | Oracle DB receiver: check `rows.Err` and close rows |
 | [Keycloak](https://github.com/keycloak/keycloak/pull/55327) | Preserve a `$` that does not start a placeholder in `StringPropertyReplacer` |
+
+**Commonhaus Foundation**
+
+| Project | Merged change |
+|---|---|
 | [Quarkus](https://github.com/quarkusio/quarkus/pull/58409) | Support negated predicates in MongoDB with Panache queries |
 | [Quarkus](https://github.com/quarkusio/quarkus/pull/57990) | Apply `quarkus.devservices.timeout` to the JDBC wait of MySQL, MariaDB and MSSQL Dev Services |
 | [Quarkus](https://github.com/quarkusio/quarkus/pull/58128) | Stop propagating default values from the Gradle build |
