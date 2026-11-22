@@ -1,114 +1,94 @@
-<p align="center">
-  <a href="https://payallenka.vercel.app"><img src="assets/hero.svg" width="100%" alt="Payal Lenka — AI & Full-Stack Engineer. I build the hard parts of products."></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="100%" alt="Payal Lenka — Software Engineer, AI & Full-Stack. 7 merged upstream PRs, 3 npm packages, 1 VS Code extension.">
+</picture>
+
+<p>
+  <a href="https://payallenka.vercel.app"><img src="https://img.shields.io/badge/Portfolio-555?style=flat-square&logo=vercel&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/payallenka/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="https://dev.to/payallenka"><img src="https://img.shields.io/badge/DEV-0A0A0A?style=flat-square&logo=devdotto&logoColor=white"></a>
+  <a href="https://medium.com/@payalm.lenka"><img src="https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white"></a>
+  <a href="https://substack.com/@ustuloabsque123904"><img src="https://img.shields.io/badge/Substack-FF6719?style=flat-square&logo=substack&logoColor=white"></a>
+  <a href="mailto:payalm.lenka@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
 </p>
 
-<p align="center">
-  <a href="https://payallenka.vercel.app"><img src="https://img.shields.io/badge/portfolio-0B0B14?style=for-the-badge&logo=vercel&logoColor=8B87FF"></a>
-  <a href="https://www.linkedin.com/in/payallenka/"><img src="https://img.shields.io/badge/linkedin-0B0B14?style=for-the-badge&logo=linkedin&logoColor=2DD4BF"></a>
-  <a href="https://dev.to/payallenka"><img src="https://img.shields.io/badge/dev.to-0B0B14?style=for-the-badge&logo=devdotto&logoColor=F472B6"></a>
-  <a href="https://medium.com/@payalm.lenka"><img src="https://img.shields.io/badge/medium-0B0B14?style=for-the-badge&logo=medium&logoColor=FBBF24"></a>
-  <a href="https://substack.com/@ustuloabsque123904"><img src="https://img.shields.io/badge/substack-0B0B14?style=for-the-badge&logo=substack&logoColor=8B87FF"></a>
-  <a href="mailto:payalm.lenka@gmail.com"><img src="https://img.shields.io/badge/email-0B0B14?style=for-the-badge&logo=gmail&logoColor=2DD4BF"></a>
-</p>
+I'm a software engineer at **Codifinary (CodeXray)**, working on a production observability platform. Alongside that I build AI and product work for startups in the UK, US and Australia, contribute fixes to open-source infrastructure, and publish developer tools.
 
-<br>
+### Current focus
 
-<img src="assets/h-now.svg" width="100%" alt="01 / Right now">
+- **Observability** — traces, service maps, per-service execution breakdowns and p90 latency at CodeXray (Go, ClickHouse, React, OpenTelemetry)
+- **Organisational memory for AI** — versioned document memory and a context graph across Notion, Slack, GitHub and Gmail, served to Claude agents (Qdrant, MCP, Langfuse)
+- **AI in the delivery pipeline** — Claude Code review and test generation in CI across a dozen services
+- **Open source** — fixing real bugs in CNCF, Red Hat and database ecosystems
 
-<p align="center">
-  <img src="assets/now-codexray.svg" width="49%" alt="Observability at CodeXray">
-  <img src="assets/now-memory.svg" width="49%" alt="Organisational memory">
-  <img src="assets/now-ci.svg" width="49%" alt="AI-driven PR pipelines">
-  <img src="assets/now-oss.svg" width="49%" alt="Upstream fixes">
-</p>
+### Published packages
 
-<img src="assets/h-npm.svg" width="100%" alt="02 / Shipped to npm">
+| Package | Description |
+|---|---|
+| [**safety-label**](https://www.npmjs.com/package/safety-label) | Finds the tracker SDKs in an Android APK/AAB and drafts Google Play Data safety answers from vendors' own disclosures. Offline, zero dependencies; a CI mode fails builds that add a tracker. |
+| [**npm-publish-doctor**](https://www.npmjs.com/package/npm-publish-doctor) | Audits a repository's npm release setup before 2FA-bypass tokens are retired, and prints the exact commands to move to trusted publishing (OIDC). Read-only. |
+| [**interceptor-engine**](https://www.npmjs.com/package/interceptor-engine) | Real-time API and LLM observability — patches `fetch` to capture latency, cost and prompts. |
+| [**Explain Code Simply**](https://marketplace.visualstudio.com/items?itemName=payallenka.explain-code-simply) | VS Code extension for AI-generated code explanations inside the editor. |
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/safety-label"><img src="assets/npm-safety-label.svg" width="32.5%" alt="safety-label"></a>
-  <a href="https://www.npmjs.com/package/npm-publish-doctor"><img src="assets/npm-publish-doctor.svg" width="32.5%" alt="npm-publish-doctor"></a>
-  <a href="https://www.npmjs.com/package/interceptor-engine"><img src="assets/npm-interceptor.svg" width="32.5%" alt="interceptor-engine"></a>
-</p>
+### Open-source contributions
 
-<p align="center"><sub>also on the VS Code Marketplace → <a href="https://marketplace.visualstudio.com/items?itemName=payallenka.explain-code-simply"><b>Explain Code Simply</b></a></sub></p>
+| Project | Merged change |
+|---|---|
+| [Jaeger](https://github.com/jaegertracing/jaeger/pull/10049) (CNCF) | Cancel remote-storage trace streams when iteration stops early |
+| [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/52761) | Oracle DB receiver: check `rows.Err` and close rows |
+| [Keycloak](https://github.com/keycloak/keycloak/pull/55327) | Preserve a `$` that does not start a placeholder in `StringPropertyReplacer` |
+| [Quarkus](https://github.com/quarkusio/quarkus/pull/58409) | Support negated predicates in MongoDB with Panache queries |
+| [Quarkus](https://github.com/quarkusio/quarkus/pull/57990) | Apply `quarkus.devservices.timeout` to the JDBC wait of MySQL, MariaDB and MSSQL Dev Services |
+| [Quarkus](https://github.com/quarkusio/quarkus/pull/58128) | Stop propagating default values from the Gradle build |
+| [Debezium Spanner Connector](https://github.com/debezium/debezium-connector-spanner/pull/180) | Do not modify record headers in place when adding timestamps |
 
-<img src="assets/h-oss.svg" width="100%" alt="03 / Merged upstream">
+### Selected projects
 
-<a href="https://github.com/pulls?q=is%3Apr+author%3Apayallenka+is%3Amerged+-user%3Apayallenka+-org%3ACodifinary+-org%3ALaxsisTechnologies"><img src="assets/oss.svg" width="100%" alt="Merged upstream: Jaeger, OpenTelemetry Collector, Keycloak, Quarkus ×3, Debezium"></a>
-
-<p align="center"><sub>
-  <a href="https://github.com/jaegertracing/jaeger/pull/10049">jaeger</a> ·
-  <a href="https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/52761">opentelemetry</a> ·
-  <a href="https://github.com/keycloak/keycloak/pull/55327">keycloak</a> ·
-  <a href="https://github.com/quarkusio/quarkus/pull/58409">quarkus</a> ·
-  <a href="https://github.com/quarkusio/quarkus/pull/57990">quarkus</a> ·
-  <a href="https://github.com/quarkusio/quarkus/pull/58128">quarkus</a> ·
-  <a href="https://github.com/debezium/debezium-connector-spanner/pull/180">debezium</a>
-</sub></p>
-
-<img src="assets/h-built.svg" width="100%" alt="04 / Things I've built">
-
-<p align="center">
-  <a href="https://github.com/payallenka/fde-order-intake-agent"><img src="assets/p-fde.svg" width="49%" alt="fde-order-intake-agent"></a>
-  <a href="https://github.com/payallenka/trackerlens"><img src="assets/p-trackerlens.svg" width="49%" alt="TrackerLens"></a>
-  <a href="https://github.com/payallenka/rollout"><img src="assets/p-rollout.svg" width="49%" alt="rollout"></a>
-  <a href="https://github.com/payallenka/AgentHub"><img src="assets/p-agenthub.svg" width="49%" alt="AgentHub"></a>
-  <a href="https://github.com/payallenka/unbox"><img src="assets/p-unbox.svg" width="49%" alt="Unbox"></a>
-  <a href="https://github.com/payallenka/Microservices"><img src="assets/p-microservices.svg" width="49%" alt="Bookstore Microservices"></a>
-</p>
+| Project | Description |
+|---|---|
+| [**fde-order-intake-agent**](https://github.com/payallenka/fde-order-intake-agent) | An AI order-intake agent deployed into a distributor's existing systems: Odoo ERP, a reverse-engineered legacy stock tool and an SFTP price list |
+| [**TrackerLens**](https://github.com/payallenka/trackerlens) | Android app that shows which tracking SDKs are inside installed apps and flags updates that add more. On-device, no internet permission |
+| [**rollout**](https://github.com/payallenka/rollout) | Make a breaking change once and open pull requests on every repository that needs it |
+| [**AgentHub**](https://github.com/payallenka/AgentHub) | Real-time collaborative AI dashboard with CRDT sync (Yjs), offline-first editing and a model proxy |
+| [**Bookstore Microservices**](https://github.com/payallenka/Microservices) | Spring Cloud reference system: Eureka, Gateway, OpenFeign, per-service PostgreSQL with Flyway |
+| [**Unbox**](https://github.com/payallenka/unbox) | Interactive virtual gifts with no backend — the entire gift is encoded in the link |
 
 <details>
-<summary><b>&nbsp;+ more experiments & prototypes</b></summary>
+<summary>Other work</summary>
 <br>
 
-| | |
-|---|---|
-| **Obligo** | Signed contracts → checks against real business data. An LLM extracts obligations; deterministic code decides breach / at-risk / compliant, with evidence |
-| **Orbit** | Durable, event-sourced runtime for AI agents in Go — crashed runs resume without repeating work |
-| **Runscan** | Critical-path analysis of AI agent traces: why a run was slow and where the money went |
-| **FlakeGuard** | CI reliability intelligence — rank flaky tests by engineer-hours lost |
-| **Jarvis Mobile** | Assistant whose memory lives on your Android phone; thinking runs on any paired computer |
-| **[ScholarshipHub](https://github.com/payallenka/ScholarshipScraping)** | 10 scholarship sources, one schema, an LLM-personalised shortlist |
-| **GridMind** | AI operations prototype for data-centre power and cooling |
-| **Askly · Slotly** | A cited, document-grounded business assistant · multi-tenant booking SaaS |
+- **Obligo** — converts signed contracts into checks against business data; an LLM extracts obligations, deterministic code evaluates them with evidence
+- **Orbit** — durable, event-sourced runtime for AI agents in Go; interrupted runs resume without repeating work
+- **Runscan** — critical-path analysis of AI agent traces to explain latency and cost
+- **FlakeGuard** — CI reliability analytics that rank flaky tests by engineering time lost
+- **Jarvis Mobile** — assistant whose memory stays on an Android phone while inference runs on paired hosts
+- **[ScholarshipHub](https://github.com/payallenka/ScholarshipScraping)** — aggregates ten scholarship sources into one schema with LLM-based matching
 
 </details>
 
-<img src="assets/h-stack.svg" width="100%" alt="05 / Toolbox">
+### Tech stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=go,ts,python,java,kotlin,js,react,nextjs,nodejs,spring&theme=dark&perline=10" /><br>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,docker,kubernetes,aws,githubactions,tailwind,androidstudio,linux&theme=dark&perline=10" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude-0B0B14?style=flat-square&logo=anthropic&logoColor=D97757">
-  <img src="https://img.shields.io/badge/MCP-0B0B14?style=flat-square">
-  <img src="https://img.shields.io/badge/Qdrant-0B0B14?style=flat-square">
-  <img src="https://img.shields.io/badge/Langfuse-0B0B14?style=flat-square">
-  <img src="https://img.shields.io/badge/Ollama-0B0B14?style=flat-square&logo=ollama&logoColor=white">
-  <img src="https://img.shields.io/badge/OpenTelemetry-0B0B14?style=flat-square&logo=opentelemetry&logoColor=8B87FF">
-  <img src="https://img.shields.io/badge/ClickHouse-0B0B14?style=flat-square&logo=clickhouse&logoColor=FBBF24">
-  <img src="https://img.shields.io/badge/Quarkus-0B0B14?style=flat-square&logo=quarkus&logoColor=2DD4BF">
-  <img src="https://img.shields.io/badge/Stripe-0B0B14?style=flat-square&logo=stripe&logoColor=8B87FF">
-</p>
+- **Languages** — Go · TypeScript · Python · Java · Kotlin
+- **AI** — Claude · OpenAI · MCP · Qdrant · Langfuse · Ollama
+- **Backend & data** — Node.js · Spring Boot · Quarkus · PostgreSQL · MongoDB · ClickHouse · OpenTelemetry
+- **Frontend** — React · Next.js · Tailwind CSS
+- **Infrastructure** — Docker · Kubernetes · AWS · GitHub Actions
 
-<p align="center"><sub>
-  💼 Software Developer @ <b>Codifinary (CodeXray)</b> · 📄 paper accepted at <b>ICWITE 2026</b> · 🔬 patent-backed project<br>
-  👩‍💻 ex <b>GDSC Core</b> · ex <b>IEEE Student Chapter Chair</b> · 🧩 <b>250+ LeetCode</b> · <b>CodeChef 3★</b>
-</sub></p>
+### Background
 
-<img src="assets/h-collab.svg" width="100%" alt="06 / Let's build together">
+- Software Developer, Codifinary (CodeXray)
+- Paper accepted at ICWITE 2026
+- Contributor to a patent-backed project
+- Former GDSC Core member and IEEE Student Chapter Chair
+- 250+ LeetCode problems · CodeChef 3★
 
-<a href="mailto:payalm.lenka@gmail.com"><img src="assets/pipeline.svg" width="100%" alt="Idea → Build → Ship → Distribute. Open to collaborations, freelance and ideas worth building."></a>
+### Working together
 
-<p align="center">
-  <b>Have an idea that deserves to exist? A tool that should be shipped? A product that needs real users?</b><br>
-  I'm open to collaborations, freelance work and new ideas — from the first sketch to build, launch and distribution.
-</p>
+I'm open to collaborations, freelance projects and new ideas — taking them from a first conversation through to build, launch and distribution.
 
-<p align="center">
-  <a href="mailto:payalm.lenka@gmail.com"><img src="https://img.shields.io/badge/say_hello-payalm.lenka%40gmail.com-8B87FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0B14"></a>
-  <a href="https://lenkara.vercel.app"><img src="https://img.shields.io/badge/studio-lenkara-F472B6?style=for-the-badge&labelColor=0B0B14"></a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/process-dark.svg">
+  <img src="assets/process-light.svg" width="100%" alt="Idea → Build → Ship → Distribute">
+</picture>
 
-<p align="center"><sub><i>I'd rather ship one real thing than a hundred demos.</i></sub></p>
+Reach me at **[payalm.lenka@gmail.com](mailto:payalm.lenka@gmail.com)** · [Portfolio](https://payallenka.vercel.app) · [Lenkara Studio](https://lenkara.vercel.app) · [LinkedIn](https://www.linkedin.com/in/payallenka/)
