@@ -36,6 +36,7 @@ I'm a software engineer at **Codifinary (CodeXray)**, working on a production ob
 | Project | Merged change |
 |---|---|
 | [Jaeger](https://github.com/jaegertracing/jaeger/pull/10049) | Cancel remote-storage trace streams when iteration stops early |
+| [Jaeger](https://github.com/jaegertracing/jaeger/pull/10259) | Stop rounding the latency quantile in the Prometheus metrics reader |
 | [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/52761) | Oracle DB receiver: check `rows.Err` and close rows |
 | [Keycloak](https://github.com/keycloak/keycloak/pull/55327) | Preserve a `$` that does not start a placeholder in `StringPropertyReplacer` |
 
